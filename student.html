@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students Information</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Information</h1>
+</header>
+
+<section>
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="text" id="roll" placeholder="Roll Number">
+    <input type="text" id="batch" placeholder="Batch">
+    <input type="text" id="section" placeholder="Section">
+    <input type="text" id="contact" placeholder="Contact Number">
+    <input type="text" id="email" placeholder="Email (Gmail)">
+    <input type="text" id="address" placeholder="Address">
+    <button onclick="addStudent()">Add Student</button>
+
+    <table id="studentTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Batch</th>
+                <th>Section</th>
+                <th>Contact</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Students will appear here -->
+        </tbody>
+    </table>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<h2>Attendance</h2>
+
+<select id="selectStudent"></select>
+<input type="date" id="attDate">
+<select id="status">
+    <option value="Present">Present</option>
+    <option value="Absent">Absent</option>
+</select>
+<button onclick="addAttendance()">Add Attendance</button>
+
+<table id="attendanceTable" border="1">
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th> <!-- new column -->
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th> <!-- Delete button -->
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="js/attendance.js"></script>
+
